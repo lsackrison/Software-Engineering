@@ -90,13 +90,13 @@ Database Schema
 
 * User
 
-	* name, email, password
+	* name, userID
 * Post
 
 	* user, post_id, body
 * Friend
 
-	* user_id
+	* user_id1, user_id2
 
 
 
@@ -132,24 +132,11 @@ Social Network Data
 
 * User
 
-	* name, email, password
+	* name, userID
 * Post
 
 	* user, post_id, body
 * Friend
 
-	* user
+	* user1, user2
 
-
-Social Network Classes
-
-
-* User
-
-	* name, email, password
-* Post
-
-	* user, post_id, body
-* Friend
-
-	* user
