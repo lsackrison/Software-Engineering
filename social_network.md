@@ -4,16 +4,16 @@
 
 The purpose of this document is to establish the Minimum Viable Product for a Social Network Website (SNW) for Exam 3.
 
-### Users
+### User
 *	The SNW will have a Log-in page where users can access existing accounts or create a new one.
 *	Users will create accounts with a username and password.
 
-### Posts
+### Post
 *	Users will be able to create text posts for friends to see.
 *	Posts can be edited and deleted.
 * Users can list all posts for another user.
 
-### Friends
+### Friendship
 *	Users will have their own Friends list where they can link with other users.
 *	Requests to link as friends can be sent and link will be complete when the other user accepts.
 
@@ -27,11 +27,11 @@ The purpose of this document is to establish the Minimum Viable Product for a So
 
 As an SNW user, I want to be able to create a new account for SMT. When I first open SMT there should be obvious text entry sections where I can type a username and password to create and account.
 
-### Posts
+### Post
 
 As an SNW user, I would like to be able to create text posts for other users to see. I would like to be able to edit these posts if I make a mistake, or delete them if need be. I would like to be able to see other posts from my friends.
 
-### Friends
+### Friendship
 
 As an SNW user, I want a list of my current friends. I want this page to contain a search feature to find new friends. I would like to be able to deny friend requests from other users if I do not know them.
 
@@ -55,13 +55,13 @@ Web Server Interface
   * create_user (firstName, lastName, userID)
   * set_user (userID)
 
-* Posts
+* Post
   * create_post (postID, postText)
   * edit_post (postID, newText)
   * delete_post (postID)
   * list_posts (user)
   
-* Friends
+* Friendship
   * add_friendship (user1, user2)
   * list_friends (user)
   * remove_friendship (user1, user2)
